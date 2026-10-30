@@ -11,6 +11,11 @@ idea 1:
 idea 2 (sidequest):
   - analyse dog whistle datasets. Are there terms that appear together often that can help detect dog whistles in a cheap way?
 
+
+idea (more a thought really):
+  - how can we detect completely new dog whistles?
+  - maybe use hate speech detection to leave data without blatant hate speech, use sentiment analysis to analyse reactions to posts. analyse posts with ambivalent sentiment if they contain potential dog whistles 
+
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **A Hybrid Method for Detecting and Explaining Emerging Dog Whistles:**

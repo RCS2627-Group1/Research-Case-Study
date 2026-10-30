@@ -13,8 +13,8 @@ idea 2 (sidequest):
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-**A Hybrid Method for Detecting and Explaining Emerging Dog Whistles**
-I was thinking that we could use a hybrid approach that combines statistical methods, contextual analysis and LLMs to discover emerging dog whistles. Instead of relying only on a fixed dictionary of known expressions, we would try to identify new candidate expressions from their usage patterns and then investigate whether they have a coded meaning.
+**A Hybrid Method for Detecting and Explaining Emerging Dog Whistles:**
+We could use a hybrid approach that combines statistical methods, contextual analysis and LLMs to discover emerging dog whistles. Instead of relying only on a fixed dictionary of known expressions, we would try to identify new candidate expressions from their usage patterns and then investigate whether they have a coded meaning.
 I propose dividing the process into three main stages.
 Stage 1: Generate Candidate Expressions Using Statistical Methods
 What we do: First, we establish a dictionary-based baseline and then use statistical methods to identify potentially interesting expressions that are not already in the dictionary.
@@ -59,7 +59,7 @@ We could begin with a small pilot, evaluate which stages contribute useful resul
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-**Hybrid Discovery and Fine-Tuned Classification for Emerging Dog Whistles**
+**Hybrid Discovery and Fine-Tuned Classification for Emerging Dog Whistles:**
 I propose a hybrid approach that combines dictionary-based detection, statistical candidate discovery and machine-learning classification. The goal is to investigate whether we can identify emerging dog whistles that are missing from existing dictionaries and distinguish their coded uses from ordinary uses in context.
 We could divide the process into four stages.
 Stage 1: Establish a Dictionary-Based Baseline and Discover Candidate Expressions
@@ -102,7 +102,7 @@ Purpose: This stage tells us whether the discovery methods add value beyond dict
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-**Glossary-Grounded Retrieval for Emerging Dog Whistles**
+**Glossary-Grounded Retrieval for Emerging Dog Whistles:**
 1. Research Questions
 This project investigates whether retrieving information about known dog whistles can help an LLM interpret expressions it has not encountered before.
 Our main research question could be:
@@ -131,7 +131,7 @@ Semantic shift may also reflect changes in topic or community style rather than 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-**Cluster-Based Detection of Emerging Dog Whistles Using LLMs**
+**Cluster-Based Detection of Emerging Dog Whistles Using LLMs:**
 1. Research Questions
 This project investigates whether changes in how words and phrases are used across online communities can help identify emerging dog whistles.
 Our main research question is:

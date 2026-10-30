@@ -16,7 +16,6 @@ idea (more a thought really):
   - how can we detect completely new dog whistles?
   - maybe use hate speech detection to leave data without blatant hate speech, use sentiment analysis to analyse reactions to posts. analyse posts with ambivalent sentiment if they contain potential dog whistles 
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -292,7 +291,7 @@ We expect clustering to help identify expressions whose uses differ across commu
 
 However, clusters may reflect differences in topics or writing styles rather than differences in meaning. Clustering can also be unreliable when expressions have few occurrences or when their meanings overlap. Finally, LLMs may produce plausible but unsupported interpretations.
 
-We will address these risks through matched control expressions, comparisons with a general-text corpus, repeated clustering runs, human annotation, and evidence-based verification.
+We will address these risks through matched control expressions, comparisons with a general-text corpus, repeated clustering runs, human annotation, and evidence-based verification.The overall goal is to determine whether clustering contextual uses can help discover emerging dog whistles and whether LLMs can interpret these usage patterns accurately and efficiently.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
-The overall goal is to determine whether clustering contextual uses can help discover emerging dog whistles and whether LLMs can interpret these usage patterns accurately and efficiently.
+

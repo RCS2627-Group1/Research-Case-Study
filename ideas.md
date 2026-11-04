@@ -14,7 +14,20 @@ idea 2 (sidequest):
 
 idea (more a thought really):
   - how can we detect completely new dog whistles?
-  - maybe use hate speech detection to leave data without blatant hate speech, use sentiment analysis to analyse reactions to posts. analyse posts with ambivalent sentiment if they contain potential dog whistles 
+  - maybe use hate speech detection to leave data without blatant hate speech, use sentiment analysis to analyse reactions to posts. analyse posts with ambivalent sentiment if they contain potential dog whistles
+
+
+idea 4:
+
+-build a small evaluation set (about 100 sentences) with three labels: coded, literal, quoted
+-measure how reliable the labels are (agreement between annotators) to report annotation quality
+-split by dog whistle term: some terms are held out completely, so the test only contains unseen dog whistles
+-compare a simple keyword baseline with a smarter method (e.g. LLM prompting or a fine-tuned model) and analyze the errors
+-strengths of proposal: directly matches the project description (coded vs. literal vs. quoted), and the test set can also be used to score the other ideas
+Q: Can a method tell coded, literal, and quoted uses apart for dog whistles it has never seen? How reliable are the Silent Signals labels compared to human labels?
+
+
+
 
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------

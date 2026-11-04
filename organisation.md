@@ -9,3 +9,10 @@ Noémie:
 Niklas:
   - strengths: data (pre-)processing, building workflows and pipelines, critical thinking
   - goals: learn how to work and communicate as a team and channeling different ideas and approaches, gathering ideas for my master thesis
+
+
+Reshma:
+- strength: I have experience testing and debugging, so I can check that our data split and results are correct.
+- I like writing clear documentation, such as labeling rules, report.
+- Python is not my main language, so I’m a bit slower with data libraries.
+- goals: Learn how to design a small NLP experiment from question to results. Contribute reliably to a team research project.

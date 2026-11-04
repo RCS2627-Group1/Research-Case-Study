@@ -19,12 +19,15 @@ idea (more a thought really):
 
 idea 4:
 
-1.build a small evaluation set (about 100 sentences) with three labels: coded, literal, quoted
-2.measure how reliable the labels are (agreement between annotators) to report annotation quality
-3.split by dog whistle term: some terms are held out completely, so the test only contains unseen dog whistles
-4.compare a simple keyword baseline with a smarter method (e.g. LLM prompting or a fine-tuned model) and analyze the errors
+1.Build a small evaluation set (about 100 sentences) with three labels: coded, literal, quoted.
 
--strengths of proposal: directly matches the project description (coded vs. literal vs. quoted), and the test set can also be used to score the other ideas
+2.Measure how reliable the labels are (agreement between annotators) to report annotation quality.
+
+3.Split by dog whistle term: some terms are held out completely, so the test only contains unseen dog whistles.
+
+4.Compare a simple keyword baseline with a smarter method (e.g. LLM prompting or a fine-tuned model) and analyze the errors.
+
+-strengths of proposal: directly matches the project description (coded vs. literal vs. quoted), and the test set can also be used to score the other ideas.
 Q: Can a method tell coded, literal, and quoted uses apart for dog whistles it has never seen? How reliable are the Silent Signals labels compared to human labels?
 
 

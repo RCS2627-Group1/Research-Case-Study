@@ -311,4 +311,33 @@ However, clusters may reflect differences in topics or writing styles rather tha
 We will address these risks through matched control expressions, comparisons with a general-text corpus, repeated clustering runs, human annotation, and evidence-based verification.The overall goal is to determine whether clustering contextual uses can help discover emerging dog whistles and whether LLMs can interpret these usage patterns accurately and efficiently.
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
+## 4. What information helps LLMs distinguish coded from ordinary uses?
 
+### 1. Main research question:
+1.	How does the availability of surrounding discourse context affect an LLM's ability to distinguish coded from ordinary uses of a dog-whistle expression?
+2.	Does providing a glossary definition of the coded meaning improve classification performance, and does its effect depend on the availability of surrounding discourse context?
+3.	What types of classification errors occur when additional discourse context or glossary definitions change the model's predictions?
+
+### 2. Hypotheses:
+1.	Providing the full available comment or passage will improve classification performance compared with providing only the sentence containing the target expression.
+2.	Providing a glossary definition will improve the identification of coded uses but may also increase false-positive classifications of ordinary uses.
+3.	The effects of discourse context and glossary definitions will interact, such that the effect of providing a definition differs depending on the amount of contextual information available.
+
+### 3. Research design
+2x2 experiment
+•	Context availability
+o	Sentence only
+o	Full comment
+•	Definition availability
+o	No glossary definition
+o	With glossary definition
+Conditions:
+A.	Target sentence
+B.	Full original comment
+C.	Target sentence + definition
+D.	Full original comment + definition
+
+### 4. Dataset:
+Disambiguation https://huggingface.co/datasets/SALT-NLP/silent_signals_disambiguation?.com
+Formal_potential_dogwhistles https://huggingface.co/datasets/SALT-NLP/formal_potential_dogwhistles?.com
+Informal_potential_dogwhistles https://huggingface.co/datasets/SALT-NLP/informal_potential_dogwhistles?.com

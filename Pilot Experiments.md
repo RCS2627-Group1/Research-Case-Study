@@ -3,7 +3,7 @@ For our initial experiments, lets work with the same two datasets so that we can
 
 ## 1. Reddit Sample – `dog_whistle_reddit_sample_5000.csv`
 
-This is a sample of 5,000 posts from the **Informal Potential Dog Whistles from Reddit** dataset by SALT-NLP.
+This is a sample of randomly selected 5,000 posts from the **Informal Potential Dog Whistles from Reddit** dataset by SALT-NLP.
 
 - Contains Reddit posts that can be used to explore potential dog whistles and their usage in different contexts.
 - This will be our main dataset for the experiments.

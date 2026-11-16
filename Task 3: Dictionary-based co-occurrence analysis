@@ -1,0 +1,25 @@
+Task 3: Dictionary-based co-occurrence analysis
+Research question: Do known dog whistles appear next to particular words or expressions that could help find other candidates?
+Method:
+  Dictionary matching:
+    -Searched every post for all 706 terms, matching whole words only.
+    -Short acronyms (GC, TIF, 88) were case-sensitive; all other terms were not.
+    -Simple endings were allowed: -s, -‘s, -er(s).
+    -Result: 6,389 matches of 341 different terms.
+  Context windows:
+    -Took 5 tokens on each side of the tagged term.
+    -Extracted single words, two-word and three-word phrases, without stopwords.
+    -Counted each phrase once per post.
+  Candidate selection:
+    -Kept phrases that are not part of any glossary term and occur at least 5 times.
+    -Score = share of a phrase’s posts where it sits right next to a dog whistle × number of different dog-whistle roots it appears with.
+Results:
+  -684 candidates, 22 of them multi-word.
+  -Most common neighbours for each known root: saved in task3_known_term_neighbours.csv.
+  -Plausible in-group vocabulary: red pill / blue pill, pilled, simp, white knight(s), chad’s, feminists.
+  -Noise:
+    Swearing: fucking, shit, bullshit.
+    Common words: saying, still, though.
+  -Artifacts of the glossary: short glossary terms pull in parts of ordinary phrases.
+    every comes from “every single”.
+    street comes from “Wall Street”, next to bankers.

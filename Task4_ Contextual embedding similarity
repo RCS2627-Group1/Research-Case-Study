@@ -20,4 +20,4 @@ Results:
   -Artifacts of the glossary:
     6 of the 13 variants are false matches from common words: based on, a single, every single, the blue, my blue.
   -Limitations: similar posts share a topic, not necessarily coded meaning; some seed words are ordinary words; no accuracy score because there is no verified list of new dog whistles.
-  -Related work: FETCH! (Sasse et al., ACL 2025) uses the same embedding model; see References.md.
+  -Related work: FETCH! (Sasse et al., ACL 2025) uses the same embedding model

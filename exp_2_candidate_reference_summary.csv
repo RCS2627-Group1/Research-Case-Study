@@ -1,0 +1,99 @@
+expression,ngram_type,metrics_found,thresholds_found,max_frequency,number_of_records,normalized_expression,dictionary_terms,dictionary_roots,definitions,ingroups,match_types,reference_match
+at this point,trigrams,"LLR, PMI","[10, 20]",22,3,at this point,,,,,,NO MATCH
+the red pill,trigrams,"LLR, PMI","[10, 20]",22,3,the red pill,,,,,,NO MATCH
+gender critical,bigrams,"LLR, PMI",[20],103,2,gender critical,"['GC', 'gender crit', 'gender-critical feminism']",['gender critical'],['Self-referential term for transphobic people'],['transphobic'],['exact_match'],MATCH
+blue pilled,bigrams,"LLR, PMI",[20],101,2,blue pilled,,,,,,NO MATCH
+clown world,bigrams,"LLR, PMI",[20],99,2,clown world,"['Clown World', 'Honkler', '🤡 🌎']",['Clown World'],['White supremacist signal originating in 4chan troll meme that clowns are racist'],['white supremacist'],['exact_match'],MATCH
+a single mom,trigrams,"LLR, PMI",[20],52,2,a single mom,['single mom'],['single parent'],"['Blaming Black parents (especially women) for poverty, crime, and dependence on public assistance']",['racist'],['phrase_match'],MATCH
+middle class,bigrams,PMI,"[10, 20]",52,2,middle class,"['middle class', 'middle class Americans', 'middle-class Americans']",['middle class'],['White middle class'],['racist'],['exact_match'],MATCH
+a single mother,trigrams,"LLR, PMI",[20],51,2,a single mother,['single mother'],['single parent'],"['Blaming Black parents (especially women) for poverty, crime, and dependence on public assistance']",['racist'],['phrase_match'],MATCH
+i don't know,trigrams,"LLR, PMI",[20],38,2,i don't know,,,,,,NO MATCH
+is based on,trigrams,"LLR, PMI",[20],33,2,is based on,,,,,,NO MATCH
+the blue pill,trigrams,"LLR, PMI",[20],31,2,the blue pill,,,,,,NO MATCH
+there is no,trigrams,"LLR, PMI",[20],31,2,there is no,,,,,,NO MATCH
+all the time,trigrams,"LLR, PMI",[20],28,2,all the time,,,,,,NO MATCH
+as long as,trigrams,"LLR, PMI",[20],23,2,as long as,,,,,,NO MATCH
+echo chamber,bigrams,PMI,"[10, 20]",21,2,echo chamber,,,,,,NO MATCH
+to deal with,trigrams,"LLR, PMI",[20],21,2,to deal with,,,,,,NO MATCH
+affirmative action,bigrams,PMI,"[10, 20]",20,2,affirmative action,['affirmative action'],['affirmative action'],['White people are victims of racial mistreatment'],['racist'],['exact_match'],MATCH
+white knights,bigrams,PMI,"[10, 20]",20,2,white knights,,,,,,NO MATCH
+mentally ill,bigrams,PMI,"[5, 10]",10,2,mentally ill,,,,,,NO MATCH
+pump and dump,trigrams,PMI,"[5, 10]",10,2,pump and dump,,,,,,NO MATCH
+in the,bigrams,LLR,[20],570,1,in the,,,,,,NO MATCH
+to be,bigrams,LLR,[20],515,1,to be,,,,,,NO MATCH
+a single,bigrams,LLR,[20],331,1,a single,,,,,,NO MATCH
+based on,bigrams,LLR,[20],328,1,based on,,,,,,NO MATCH
+if you,bigrams,LLR,[20],249,1,if you,,,,,,NO MATCH
+the same,bigrams,LLR,[20],231,1,the same,,,,,,NO MATCH
+want to,bigrams,LLR,[20],216,1,want to,,,,,,NO MATCH
+a lot,bigrams,LLR,[20],195,1,a lot,,,,,,NO MATCH
+trans people,bigrams,LLR,[20],172,1,trans people,,,,,,NO MATCH
+a lot of,trigrams,LLR,[20],135,1,a lot of,,,,,,NO MATCH
+blue pill,bigrams,LLR,[20],135,1,blue pill,,,,,,NO MATCH
+single mothers,bigrams,LLR,[20],109,1,single mothers,,,,,,NO MATCH
+at least,bigrams,LLR,[20],100,1,at least,,,,,,NO MATCH
+red pill,bigrams,PMI,[20],51,1,red pill,,,,,,NO MATCH
+child support,bigrams,PMI,[20],38,1,child support,,,,,,NO MATCH
+the fact that,trigrams,LLR,[20],37,1,the fact that,,,,,,NO MATCH
+the rest of,trigrams,LLR,[20],33,1,the rest of,,,,,,NO MATCH
+years ago,bigrams,PMI,[20],32,1,years ago,,,,,,NO MATCH
+a bunch of,trigrams,LLR,[20],31,1,a bunch of,,,,,,NO MATCH
+social media,bigrams,PMI,[20],31,1,social media,,,,,,NO MATCH
+beta bux,bigrams,PMI,[20],30,1,beta bux,,,,,,NO MATCH
+not a single,trigrams,PMI,[20],28,1,not a single,,,,,,NO MATCH
+year old,bigrams,PMI,[20],28,1,year old,,,,,,NO MATCH
+working class,bigrams,PMI,[20],27,1,working class,"['working class', 'working class communities', 'working class families', 'working families', 'working-class', 'working-class communities']",['working class'],['white working class'],['racist'],['exact_match'],MATCH
+i don't think,trigrams,PMI,[20],24,1,i don't think,,,,,,NO MATCH
+a trans woman,trigrams,PMI,[20],21,1,a trans woman,,,,,,NO MATCH
+beta bucks,bigrams,PMI,[20],21,1,beta bucks,,,,,,NO MATCH
+this is why,trigrams,PMI,[20],21,1,this is why,,,,,,NO MATCH
+personal responsibility,bigrams,PMI,[10],18,1,personal responsibility,"['individual responsibility', 'personal responsibility']",['personal responsibility'],['Opposition to public spending perceived to benefit racial minorities over white people'],['racist'],['exact_match'],MATCH
+when it comes,trigrams,PMI,[10],17,1,when it comes,,,,,,NO MATCH
+ah yes,bigrams,PMI,[10],15,1,ah yes,,,,,,NO MATCH
+big pharma,bigrams,PMI,[10],15,1,big pharma,['big pharma'],['big pharma'],['Evil pharmaceutical companies sell poison for profit'],['anti-vax'],['exact_match'],MATCH
+the lgbt community,trigrams,PMI,[10],15,1,the lgbt community,,,,,,NO MATCH
+politically correct,bigrams,PMI,[10],14,1,politically correct,['politically correct'],['political correctness'],['We should let people be openly racist'],['racist'],['exact_match'],MATCH
+at some point,trigrams,PMI,[10],13,1,at some point,,,,,,NO MATCH
+not to mention,trigrams,PMI,[10],13,1,not to mention,,,,,,NO MATCH
+the other hand,trigrams,PMI,[10],13,1,the other hand,,,,,,NO MATCH
+video games,bigrams,PMI,[10],13,1,video games,,,,,,NO MATCH
+a clown world,trigrams,PMI,[10],12,1,a clown world,"['Clown World', 'Honkler', '🤡 🌎']",['Clown World'],['White supremacist signal originating in 4chan troll meme that clowns are racist'],['white supremacist'],['phrase_match'],MATCH
+in clown world,trigrams,PMI,[10],12,1,in clown world,"['Clown World', 'Honkler', '🤡 🌎']",['Clown World'],['White supremacist signal originating in 4chan troll meme that clowns are racist'],['white supremacist'],['phrase_match'],MATCH
+of single mothers,trigrams,PMI,[10],12,1,of single mothers,,,,,,NO MATCH
+political correctness,bigrams,PMI,[10],12,1,political correctness,"['political correctness', 'politically correct']",['political correctness'],['We should let people be openly racist'],['racist'],['exact_match'],MATCH
+this clown world,trigrams,PMI,[10],12,1,this clown world,"['Clown World', 'Honkler', '🤡 🌎']",['Clown World'],['White supremacist signal originating in 4chan troll meme that clowns are racist'],['white supremacist'],['phrase_match'],MATCH
+i'm pretty sure,trigrams,PMI,[10],11,1,i'm pretty sure,,,,,,NO MATCH
+soy boys,bigrams,PMI,[10],11,1,soy boys,['soy boys'],['soy boy'],['liberal or establishment Republican men'],['anti-liberal'],['exact_match'],MATCH
+difference between,bigrams,PMI,[10],10,1,difference between,,,,,,NO MATCH
+echo chambers,bigrams,PMI,[10],10,1,echo chambers,,,,,,NO MATCH
+hit the wall,trigrams,PMI,[10],10,1,hit the wall,,,,,,NO MATCH
+public schools,bigrams,PMI,[10],10,1,public schools,['public schools'],['public school'],['Dangerous place with nonwhite kids that wastes tax dollars'],['racist'],['exact_match'],MATCH
+single trans person,trigrams,PMI,[10],10,1,single trans person,,,,,,NO MATCH
+bodily autonomy,bigrams,PMI,[5],9,1,bodily autonomy,,,,,,NO MATCH
+cultural marxism,bigrams,PMI,[5],8,1,cultural marxism,['cultural Marxism'],['cultural Marxism'],['Jewish people are upending society'],['antisemitic'],['exact_match'],MATCH
+in other words,trigrams,PMI,[5],8,1,in other words,,,,,,NO MATCH
+monk mode,bigrams,PMI,[5],8,1,monk mode,,,,,,NO MATCH
+bernie sanders,bigrams,PMI,[5],7,1,bernie sanders,['Bernie Sanders'],['attacks on or imagery of Jewish political leaders'],['Jewish people control world politics'],['antisemitic'],['exact_match'],MATCH
+friend of mine,trigrams,PMI,[5],7,1,friend of mine,,,,,,NO MATCH
+oh my god,trigrams,PMI,[5],7,1,oh my god,,,,,,NO MATCH
+chad and tyrone,trigrams,PMI,[5],6,1,chad and tyrone,,,,,,NO MATCH
+conversion therapy,bigrams,PMI,[5],6,1,conversion therapy,,,,,,NO MATCH
+fucks beta bucks,trigrams,PMI,[5],6,1,fucks beta bucks,,,,,,NO MATCH
+harry potter,bigrams,PMI,[5],6,1,harry potter,,,,,,NO MATCH
+the front page,trigrams,PMI,[5],6,1,the front page,,,,,,NO MATCH
+the middle east,trigrams,PMI,[5],6,1,the middle east,,,,,,NO MATCH
+the vast majority,trigrams,PMI,[5],6,1,the vast majority,,,,,,NO MATCH
+under the bus,trigrams,PMI,[5],6,1,under the bus,,,,,,NO MATCH
+virtue signaling,bigrams,PMI,[5],6,1,virtue signaling,,,,,,NO MATCH
+along the lines,trigrams,PMI,[5],5,1,along the lines,,,,,,NO MATCH
+an echo chamber,trigrams,PMI,[5],5,1,an echo chamber,,,,,,NO MATCH
+cock carousel,bigrams,PMI,[5],5,1,cock carousel,,,,,,NO MATCH
+federal reserve,bigrams,PMI,[5],5,1,federal reserve,"['Federal Reserve', 'the Fed']",['Federal Reserve'],['Jewish people control all the money'],['antisemitic'],['exact_match'],MATCH
+george soros,bigrams,PMI,[5],5,1,george soros,"['George Soros', 'Soros']",['George Soros'],['Jewish person who controls the world'],['antisemitic'],['exact_match'],MATCH
+honk honk,bigrams,PMI,[5],5,1,honk honk,,,,,,NO MATCH
+in public schools,trigrams,PMI,[5],5,1,in public schools,['public schools'],['public school'],['Dangerous place with nonwhite kids that wastes tax dollars'],['racist'],['phrase_match'],MATCH
+la la,bigrams,PMI,[5],5,1,la la,,,,,,NO MATCH
+quick google search,trigrams,PMI,[5],5,1,quick google search,,,,,,NO MATCH
+rabbit hole,bigrams,PMI,[5],5,1,rabbit hole,,,,,,NO MATCH
+vice versa,bigrams,PMI,[5],5,1,vice versa,,,,,,NO MATCH
+war on drugs,trigrams,PMI,[5],5,1,war on drugs,['war on drugs'],['war on drugs'],"['Harsh punishments for Black people who use drugs, but not for white people']",['racist'],['exact_match'],MATCH

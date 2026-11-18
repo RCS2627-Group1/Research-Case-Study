@@ -1,0 +1,121 @@
+expression,ngram_type,metric,threshold,frequency,score
+harry potter,bigrams,PMI,5,6,15.060280770681539
+bernie sanders,bigrams,PMI,5,7,14.645243271402695
+vice versa,bigrams,PMI,5,5,14.645243271402695
+honk honk,bigrams,PMI,5,5,14.574853943511297
+bodily autonomy,bigrams,PMI,5,9,13.944803553261602
+la la,bigrams,PMI,5,5,13.627321363405432
+rabbit hole,bigrams,PMI,5,5,13.574853943511297
+mentally ill,bigrams,PMI,5,10,13.50773974765276
+virtue signaling,bigrams,PMI,5,6,13.422850850066247
+george soros,bigrams,PMI,5,5,13.337814746210448
+conversion therapy,bigrams,PMI,5,6,13.335388008815908
+federal reserve,bigrams,PMI,5,5,13.252925848623935
+cock carousel,bigrams,PMI,5,5,13.159816444232453
+monk mode,bigrams,PMI,5,8,13.153390175073019
+cultural marxism,bigrams,PMI,5,8,13.153390175073019
+along the lines,trigrams,PMI,5,5,13.740639101343305
+friend of mine,trigrams,PMI,5,7,12.963031522679753
+pump and dump,trigrams,PMI,5,10,12.951058881013678
+an echo chamber,trigrams,PMI,5,5,12.825527998929818
+quick google search,trigrams,PMI,5,5,12.690013028273338
+fucks beta bucks,trigrams,PMI,5,6,12.681745412289736
+in public schools,trigrams,PMI,5,5,12.530072115403646
+chad and tyrone,trigrams,PMI,5,6,12.503599904042455
+the front page,trigrams,PMI,5,6,12.43946956662274
+the middle east,trigrams,PMI,5,6,12.319175332905028
+war on drugs,trigrams,PMI,5,5,12.226065928513547
+oh my god,trigrams,PMI,5,7,12.1854239440162
+the vast majority,trigrams,PMI,5,6,11.968049597446377
+under the bus,trigrams,PMI,5,6,11.95304743410713
+in other words,trigrams,PMI,5,8,11.840634891320025
+mentally ill,bigrams,PMI,10,10,13.50773974765276
+echo chambers,bigrams,PMI,10,10,12.475318269960383
+echo chamber,bigrams,PMI,10,21,12.408204074101846
+political correctness,bigrams,PMI,10,12,12.39731575795911
+affirmative action,bigrams,PMI,10,20,12.365400577882347
+politically correct,bigrams,PMI,10,14,12.195210350767647
+public schools,bigrams,PMI,10,10,11.12168131534568
+personal responsibility,bigrams,PMI,10,18,11.033808559320347
+ah yes,bigrams,PMI,10,15,11.0285719109542
+video games,bigrams,PMI,10,13,10.99584889808654
+big pharma,bigrams,PMI,10,15,10.967171366290057
+difference between,bigrams,PMI,10,10,10.278921057156879
+middle class,bigrams,PMI,10,52,10.112662563069291
+white knights,bigrams,PMI,10,20,9.938229322967649
+soy boys,bigrams,PMI,10,11,9.822165583799155
+pump and dump,trigrams,PMI,10,10,12.951058881013678
+hit the wall,trigrams,PMI,10,10,11.777164977368418
+when it comes,trigrams,PMI,10,17,11.243139441872488
+i'm pretty sure,trigrams,PMI,10,11,10.539820091955209
+not to mention,trigrams,PMI,10,13,10.483562150805911
+the lgbt community,trigrams,PMI,10,15,10.221264942249725
+at some point,trigrams,PMI,10,13,10.083526814866314
+the red pill,trigrams,PMI,10,22,9.847239065437545
+the other hand,trigrams,PMI,10,13,9.810681669218399
+single trans person,trigrams,PMI,10,10,9.809226186600718
+of single mothers,trigrams,PMI,10,12,9.806527036999762
+at this point,trigrams,PMI,10,22,9.605479518061669
+this clown world,trigrams,PMI,10,12,9.599626791816231
+in clown world,trigrams,PMI,10,12,9.599626791816231
+a clown world,trigrams,PMI,10,12,9.599626791816231
+echo chamber,bigrams,PMI,20,21,12.408204074101846
+affirmative action,bigrams,PMI,20,20,12.365400577882347
+middle class,bigrams,PMI,20,52,10.112662563069291
+white knights,bigrams,PMI,20,20,9.938229322967649
+social media,bigrams,PMI,20,31,9.621801891383694
+clown world,bigrams,PMI,20,99,9.571994289372055
+beta bux,bigrams,PMI,20,30,9.336904241263287
+years ago,bigrams,PMI,20,32,9.255880815758811
+working class,bigrams,PMI,20,27,9.220221683551229
+year old,bigrams,PMI,20,28,9.209424209987347
+child support,bigrams,PMI,20,38,9.09713117601651
+gender critical,bigrams,PMI,20,103,9.090691672195291
+red pill,bigrams,PMI,20,51,9.082477087858067
+beta bucks,bigrams,PMI,20,21,8.974334161878579
+blue pilled,bigrams,PMI,20,101,8.881652893684617
+the red pill,trigrams,PMI,20,22,9.847239065437545
+at this point,trigrams,PMI,20,22,9.605479518061669
+the blue pill,trigrams,PMI,20,31,9.05821079118653
+a single mom,trigrams,PMI,20,52,7.970855739126264
+a single mother,trigrams,PMI,20,51,7.861047271793021
+as long as,trigrams,PMI,20,23,7.339759665061121
+a trans woman,trigrams,PMI,20,21,7.229505012480318
+to deal with,trigrams,PMI,20,21,6.990530321803085
+i don't know,trigrams,PMI,20,38,6.79781596512453
+there is no,trigrams,PMI,20,31,6.731887779237629
+is based on,trigrams,PMI,20,33,6.552333923584684
+all the time,trigrams,PMI,20,28,6.404291946542979
+this is why,trigrams,PMI,20,21,6.046583313854988
+i don't think,trigrams,PMI,20,24,6.031473212556791
+not a single,trigrams,PMI,20,28,5.920460138928117
+based on,bigrams,LLR,20,328,2714.291946867388
+to be,bigrams,LLR,20,515,1912.8192177914975
+blue pill,bigrams,LLR,20,135,1501.6902875009466
+a lot,bigrams,LLR,20,195,1356.243328717292
+clown world,bigrams,LLR,20,99,1340.8568823728422
+the same,bigrams,LLR,20,231,1324.1415732999883
+in the,bigrams,LLR,20,570,1285.9396905111578
+gender critical,bigrams,LLR,20,103,1274.592362223923
+blue pilled,bigrams,LLR,20,101,1208.000256994521
+a single,bigrams,LLR,20,331,1196.7253145282534
+if you,bigrams,LLR,20,249,1188.114835338022
+single mothers,bigrams,LLR,20,109,1086.5944070817156
+trans people,bigrams,LLR,20,172,1074.8752750568028
+at least,bigrams,LLR,20,100,1063.5410890408298
+want to,bigrams,LLR,20,216,1055.4897156458644
+a lot of,trigrams,LLR,20,135,832.3218648987645
+a single mom,trigrams,LLR,20,52,506.1699388732561
+a single mother,trigrams,LLR,20,51,486.2437007481375
+the blue pill,trigrams,LLR,20,31,354.09427317575995
+the red pill,trigrams,LLR,20,22,296.581215302748
+i don't know,trigrams,LLR,20,38,295.1710619167683
+at this point,trigrams,LLR,20,22,271.88961907287046
+is based on,trigrams,LLR,20,33,271.43697641655024
+the fact that,trigrams,LLR,20,37,267.567076393598
+a bunch of,trigrams,LLR,20,31,242.30130306542347
+there is no,trigrams,LLR,20,31,238.94764524972322
+as long as,trigrams,LLR,20,23,234.47388512211927
+the rest of,trigrams,LLR,20,33,228.55973306165043
+to deal with,trigrams,LLR,20,21,203.80128995498006
+all the time,trigrams,LLR,20,28,200.06354280630018

@@ -12,7 +12,6 @@ Method:
     -Counted each phrase once per post.
   Candidate selection:
     -Kept phrases that are not part of any glossary term and occur at least 5 times.
-    -Score = share of a phrase’s posts where it sits right next to a dog whistle × number of different dog-whistle roots it appears with.
 Results:
   -684 candidates, 22 of them multi-word.
   -Most common neighbours for each known root: saved in task3_known_term_neighbours.csv.

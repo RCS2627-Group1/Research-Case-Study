@@ -15,6 +15,51 @@ This dataset contains known dog-whistle expressions and examples of their usage.
 - We will mainly use it as a reference for identifying and matching known expressions.
 - It can be useful for dictionary-based matching, co-occurrence analysis and comparing our discovered candidates with known expressions.
 
+  ## Experiments to be conducted:
+  Person 1 — Frequency filtering + n-gram extraction
+Q: Can frequent word combinations help us identify potentially interesting expressions?
+- Extract unigrams, bigrams and trigrams from the Reddit dataset.
+- Count how often each expression occurs.
+- Remove very rare expressions using a minimum-frequency threshold.
+- Rank the remaining expressions by frequency.
+- Check which expressions already appear in the Silent Signals glossary and which do not.
+Output: A ranked list of frequent expressions, their counts, and examples of their usage.
+To check whether simple frequency-based candidate generation gives us useful results, or mostly returns ordinary phrases.
+
+Person 2 — PMI and LLR association scores
+Q: Can we identify unusual word combinations rather than simply frequent ones?
+- Extract bigrams and trigrams from the same dataset.
+- Calculate Pointwise Mutual Information (PMI).
+- If time permits, calculate Log-Likelihood Ratio (LLR) as well.
+- Apply a minimum-frequency threshold before ranking.
+- Compare the highest-ranked expressions with Person 1's frequency-based results.
+Output: A ranked list of expressions with frequency, PMI and LLR scores, plus example posts.
+To check whether association scores surface interesting combinations that a frequency-only approach misses.
+Also PMI can give very high scores to rare combinations, so frequency filtering is essential.
+
+Person 3 — Dictionary-based analysis and co-occurrence
+Q: Do known dog whistles occur alongside particular words, expressions or topics that could help us discover other candidates?
+- Extract known expressions from the Silent Signals dataset.
+- Find their occurrences in the Reddit dataset.
+- Examine the words and phrases appearing around them.
+- Calculate frequent co-occurrences or use a context window around each known expression.
+- Identify expressions that repeatedly occur in similar contexts but are not in the existing glossary.
+Output: A list of known expressions, their common surrounding terms, and possible new candidate expressions.
+Check whether the context surrounding known dog whistles can help us find related expressions.
+Shared topics do not necessarily mean shared coded meanings so the candidates will need further checking.
+
+If possible right away then someone can also try this:
+Person 4 — Contextual embedding similarity
+Q: Can we find expressions that are used in contexts similar to known dog whistles, even if they do not share the same words?
+- Start with a small set of known dog-whistle examples from Silent Signals.
+- Use a pretrained sentence-embedding model to represent their surrounding posts.
+- Represent other posts from the Reddit dataset in the same way.
+- Compare their embeddings using cosine similarity.
+- Extract expressions from the most similar posts that are not already in the glossary.
+Output: A ranked list of potentially related posts and expressions, with similarity scores and examples.
+Check if semantic/contextual similarity can discover candidates that simple n-gram statistics might miss.
+Again similarity between posts can reflect the same topic rather than the same coded meaning.
+
 ## 3. Saving Outputs
 
 Please save your experiment results as **CSV files** and upload them to the shared project repository with clear file names so we know which experiment the results belong to.

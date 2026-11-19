@@ -15,7 +15,7 @@ Method:
 Results:
   -684 candidates, 22 of them multi-word.
   -Most common neighbours for each known root: saved in task3_known_term_neighbours.csv.
-  -Plausible in-group vocabulary: red pill / blue pill, pilled, simp, white knight(s), chad’s, feminists.
+  -Plausible in-group vocabulary: red pill / blue pill, pilled, simp, white knight(s), chad’s, feminists, orbiter(s)
   -Noise:
     Swearing: fucking, shit, bullshit.
     Common words: saying, still, though.

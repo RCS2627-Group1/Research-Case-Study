@@ -9,3 +9,11 @@ Benchmarks Across Target Groups] (https://aclanthology.org/2026.woah-1.34/)
 [Who Let the Dogs Out_ Auditing Dogwhistle Coverage in Hate Speech Benchmarks Across Target Groups.pdf](https://github.com/user-attachments/files/34140899/Who.Let.the.Dogs.Out_.Auditing.Dogwhistle.Coverage.in.Hate.Speech.Benchmarks.Across.Target.Groups.pdf)
 
 [SALT-NLP/silent_signals] (https://huggingface.co/datasets/SALT-NLP/silent_signals)
+
+Definition 
+Silent Signals, Loud Impact: LLMs for Word-Sense Disambiguation of Coded Dog Whistles (Julia Kruk et al.)
+A dog whistle is a form of coded communication that carries a secondary meaning to specific audiences and is often weaponized for racial and socioeconomic discrimination.
+
+From Dogwhistles to Bullhorns: Unveiling Coded Rhetoric with Language Models (Julia Mendelsohn et al.)
+Dogwhistles are coded expressions that simultaneously convey one meaning to a broad audience and a second, often hateful or provocative, meaning to a narrow in-group; they are deployed to evade both political repercussions and algorithmic content moderation.
+
